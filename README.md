@@ -146,7 +146,8 @@ A Target Tracking Scaling Policy was configured.
 
 This policy automatically adjusted capacity based on server load.
 
-[screenshot – scaling policy]<img width="940" height="202" alt="image" src="https://github.com/user-attachments/assets/13bce56e-b335-4bc4-a581-eddd3149a3ba" />
+[screenshot – scaling policy]<img width="1029" height="776" alt="Screenshot 2026-06-12 191629" src="https://github.com/user-attachments/assets/9ec995ae-6c7a-45a0-8374-80efa435106e" />
+
 
 
 ---
