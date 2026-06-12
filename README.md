@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focused on improving the availability, scalability, and resilience of a café web application hosted on AWS. The environment was redesigned to use multiple Availability Zones, private and public subnets, an Application Load Balancer (ALB), a NAT Gateway, and an Auto Scaling Group (ASG). The final solution automatically distributed traffic across multiple web servers and dynamically scaled resources in response to increased demand.
+This project I focused on improving the availability, scalability, and resilience of a café web application hosted on AWS. The environment was redesigned to use multiple Availability Zones, private and public subnets, an Application Load Balancer (ALB), a NAT Gateway, and an Auto Scaling Group (ASG). The final solution automatically distributed traffic across multiple web servers and dynamically scaled resources in response to increased demand.
 
 ## Skills Demonstrated
 
