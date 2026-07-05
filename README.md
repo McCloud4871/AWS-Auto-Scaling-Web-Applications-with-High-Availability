@@ -46,7 +46,7 @@ The environment was designed using a multi-tier architecture.
 - Auto Scaling automatically increased or decreased server capacity based on CPU utilization.
 - Traffic was distributed across multiple Availability Zones to improve resilience and fault tolerance.
 
-[Architecture overview]<img width="1147" height="629" alt="Screenshot 2026-06-12 134647" src="https://github.com/user-attachments/assets/67586ba8-185f-46d0-8a40-6df2a85e57f5" />
+Architecture overview<img width="1147" height="629" alt="Screenshot 2026-06-12 134647" src="https://github.com/user-attachments/assets/67586ba8-185f-46d0-8a40-6df2a85e57f5" />
 
 
 ---
@@ -63,7 +63,7 @@ Key components identified:
 - Public and private subnets
 - Existing security groups and IAM roles
 
-[Original EC2 instance]<img width="1642" height="813" alt="Screenshot 2026-06-12 145109" src="https://github.com/user-attachments/assets/62230ea3-8187-4816-a25d-138365622804" />
+Original EC2 instance<img width="1642" height="813" alt="Screenshot 2026-06-12 145109" src="https://github.com/user-attachments/assets/62230ea3-8187-4816-a25d-138365622804" />
 
 
 ---
@@ -80,7 +80,7 @@ Configuration included:
 - NAT Gateway deployment in Public Subnet 2
 - Route table updates for private subnets
 
-[NAT Gateway configuration]<img width="1863" height="576" alt="Screenshot 2026-06-12 151646" src="https://github.com/user-attachments/assets/856ec5b3-381a-457f-a306-ac3aade887a5" />
+NAT Gateway configuration<img width="1863" height="576" alt="Screenshot 2026-06-12 151646" src="https://github.com/user-attachments/assets/856ec5b3-381a-457f-a306-ac3aade887a5" />
 
 
 ### Route Table Updates
@@ -92,7 +92,7 @@ Configuration:
 - Destination: 0.0.0.0/0
 - Target: NAT Gateway
 
-[Updated route table]<img width="1878" height="582" alt="Screenshot 2026-06-12 153044" src="https://github.com/user-attachments/assets/515e1574-fd49-4fd3-8295-cea61d8c9d4e" />
+Updated route table<img width="1878" height="582" alt="Screenshot 2026-06-12 153044" src="https://github.com/user-attachments/assets/515e1574-fd49-4fd3-8295-cea61d8c9d4e" />
 
 
 ---
@@ -111,7 +111,7 @@ Configuration included:
 
 This template provided a consistent deployment standard for Auto Scaling.
 
-[launch template details]<img width="1889" height="848" alt="Screenshot 2026-06-12 154932" src="https://github.com/user-attachments/assets/040035f6-967b-4bee-8c06-226cea051d9f" />
+launch template details<img width="1889" height="848" alt="Screenshot 2026-06-12 154932" src="https://github.com/user-attachments/assets/040035f6-967b-4bee-8c06-226cea051d9f" />
 
 
 ---
@@ -131,7 +131,7 @@ Configuration:
 
 The Auto Scaling Group distributed instances across multiple Availability Zones to improve availability and fault tolerance.
 
-[Auto Scaling Group configuration]<img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/43407749-cf00-463d-b36e-0e2a2ba96ae8" />
+Auto Scaling Group configuration<img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/43407749-cf00-463d-b36e-0e2a2ba96ae8" />
 
 
 ### Scaling Policy Configuration
@@ -167,7 +167,7 @@ Configuration:
 | Port | 80 |
 | Availability Zones | Public Subnet 1, Public Subnet 2 |
 
-[ALB configuration]<img width="940" height="342" alt="image" src="https://github.com/user-attachments/assets/cd3c5e17-79ba-45bb-b74b-8f238a573014" />
+ALB configuration<img width="940" height="342" alt="image" src="https://github.com/user-attachments/assets/cd3c5e17-79ba-45bb-b74b-8f238a573014" />
 
 
 ### Security Group Configuration
@@ -180,7 +180,7 @@ Inbound Rules:
 |----------|----------|----------|
 | HTTP | 80 | 0.0.0.0/0 |
 
-[ALB security group]<img width="940" height="308" alt="image" src="https://github.com/user-attachments/assets/182cc4c8-18c9-4597-97af-be09cd0162bf" />
+ALB security group<img width="940" height="308" alt="image" src="https://github.com/user-attachments/assets/182cc4c8-18c9-4597-97af-be09cd0162bf" />
 
 
 ### Target Group Configuration
