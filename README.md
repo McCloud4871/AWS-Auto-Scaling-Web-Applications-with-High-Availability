@@ -47,7 +47,7 @@ The environment was designed using a multi-tier architecture.
 - Traffic was distributed across multiple Availability Zones to improve resilience and fault tolerance.
 
 Architecture overview<img width="1147" height="629" alt="Screenshot 2026-06-12 134647" src="https://github.com/user-attachments/assets/67586ba8-185f-46d0-8a40-6df2a85e57f5" />
-
+image: awsacademy.instructure.com
 
 ---
 
